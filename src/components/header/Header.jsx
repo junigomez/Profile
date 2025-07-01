@@ -9,7 +9,7 @@ const Header = () => {
 
         <nav className="space-x-6 hidden md:flex">
           <a
-            href="#about"
+            href="#hero"
             className="text-gray-700 font-bold hover:text-blue-500"
           >
             Sobre mí
@@ -25,6 +25,12 @@ const Header = () => {
             className="text-gray-700 font-bold hover:text-blue-500"
           >
             Proyectos
+          </a>
+          <a
+            href="#gallery"
+            className="text-gray-700 font-bold hover:text-blue-500"
+          >
+            Galeria
           </a>
           <a
             href="#contact"
